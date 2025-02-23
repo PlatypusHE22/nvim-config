@@ -10,3 +10,7 @@ lsp.lua_ls.setup({
 lsp.clangd.setup({
     capabilities = capabilities,
 })
+
+lsp.omnisharp.setup({
+    capabilities = capabilities,
+})
